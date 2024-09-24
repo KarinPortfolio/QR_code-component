@@ -37,7 +37,9 @@ main section span{
     margin-bottom: 10rem;
 }
 
-.container{    
+.container{   
+    display: grid;
+    place-items: center;
     flex-direction: column;
     padding: 0 2rem;
     text-align: center;
@@ -55,6 +57,7 @@ main section span{
 }
 @media screen and (max-width: 650px) {
     .container{    
-        width: 100%;
+    width: 90%;
+    max-width: 37.5rem;
     }
 }
